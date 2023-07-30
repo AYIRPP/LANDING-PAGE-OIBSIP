@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(star-trek-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+  }
+  
+  .header {
+    text-align: center;
+    margin-top: 80px;
+  }
+  
+  .header h1 {
+    font-size: 48px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .header h2 {
+    font-size: 96px;
+    margin: 5px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .menu-bar {
+    text-align: center;
+    background-color: #000000;
+    padding: 10px 0;
+  }
+  
+  .menu-bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+  }
+  
+  .menu-bar li {
+    margin: 0 15px;
+  }
+  
+  .menu-bar a {
+    color: floralwhite;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #007bff;
+  }
+  
+  .menu-bar a:hover {
+    background-color: floralwhite;
+    color: #000;
+  }
+  
+  .content {
+    text-align: center;
+    margin: 50px 0;
+  }
+  
+  .content p {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+  
+  .lets-go-btn {
+    color: floralwhite;
+    background-color: #e31a1a;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding: 12px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 30px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .lets-go-btn:hover {
+    background-color: #360101;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .social-icons a {
+    font-size: 30px;
+    color: floralwhite;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: #007bff;
+  }
+  
+  .footer {
+    text-align: center;
+    background-color: black;
+    padding: 20px 0;
+  }
+  
+  .footer p {
+    margin: 5px;
+    font-size: 14px;
+  }
+  
+  .footer p:last-child {
+    font-size: 12px;
+  
